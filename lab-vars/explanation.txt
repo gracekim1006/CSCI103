@@ -1,0 +1,19 @@
+Sandeep Suresh 
+USC ID# 7720774451
+
+When we have a number of variable length, the process to extract each digit
+and it's place is a little tricky. The method in which I did it was based
+on a pattern. To extract each digit in ascending order, you divided by 10
+to a certain power (depending on which digit) then mod by 10 to get the
+digit you want. 
+Example: 
+# = 15673
+To get the one's digit, you divide by 10^0 and mod by 10. 
+   (15673 / 10^0) % 10 = 3. 
+To get the ten's digit, you divide by 10^1 and mod by 10. 
+   (15673 / 10^1) % 10 = 7.
+Everytime the power of 10 increase by one you are eliminating the digit 
+preceding it. 
+Thus, a while loops works perfectly because once the power of 10 becomes 
+higher than the number you inputted, you will know that you are done
+extracting digits. This is the condition for the while loop. 

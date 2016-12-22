@@ -1,0 +1,20 @@
+--2016-09-13 14:30:34--  ftp://bits.usc.edu/cs103/hailstone/readme.text
+           => ‘readme.text’
+Resolving bits.usc.edu (bits.usc.edu)... 128.125.163.146
+Connecting to bits.usc.edu (bits.usc.edu)|128.125.163.146|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /cs103/hailstone ... done.
+==> SIZE readme.text ... done.
+==> PASV ... 
+Error in server response, closing control connection.
+Retrying.
+
+--2016-09-13 14:45:35--  ftp://bits.usc.edu/cs103/hailstone/readme.text
+  (try: 2) => ‘readme.text’
+Connecting to bits.usc.edu (bits.usc.edu)|128.125.163.146|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /cs103/hailstone ... done.
+==> SIZE readme.text ... done.
+==> PASV ... 

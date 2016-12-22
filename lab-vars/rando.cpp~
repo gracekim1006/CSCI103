@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std; 
+
+int main()
+{
+   int num = 15673;
+   int tenthou = num / 10000; 
+   cout << tenthou % 10;
+}

@@ -1,0 +1,49 @@
+/*
+Name: Sandeep Suresh 
+USC ID# 7720774451
+Date: 08/31/16n
+*/
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+   cout << "Please enter an integer between 0 and 999!" << endl;
+   int input;
+   cin >> input;
+   
+   //Declaring variables for each digit
+   int ones;
+   int tens;
+   int hundreds;
+   
+   /*
+   //Initliazing the ones variable
+   ones = input % 10;
+   
+   //Initializing the tens variable
+   tens = (input / 10) % 10;
+   
+   //Initializing the hundreds variable
+   hundreds = input / 100; 
+   
+   //Printing Results
+   cout << "1's digit is: " << ones << endl;
+   cout << "10's digit is: " << tens << endl; 
+   cout << "100's digit is: " << hundreds << endl;
+   */
+   /*Notes: 
+I could keep chopping off the number, and store each digit as I go. T
+
+    */
+   int temp;
+   int digit = 1;
+   int  mod_or_not = 1;
+   while(hmm)
+   { 
+     temp = input
+     cout << digit << "'s digit is: " << temp;
+     
+
+   }
+}

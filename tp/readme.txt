@@ -1,0 +1,38 @@
+Trail #1
+Sims:       Average: 
+---------|---------- 
+100      |  3.15
+---------|----------
+1,000    |  3.562
+---------|----------
+10,000   |  3.5315
+---------|----------
+100,000  |  3.52514
+---------|----------
+1,000,000|  3.52437
+
+-------------------------
+Trial #2
+Sims:       Average:
+---------|----------
+100      |  3.71
+---------|----------
+1,000    |  3.515
+---------|----------
+10,000   |  3.5131
+---------|----------
+100,000  |  3.52429
+---------|----------
+1,000,000|  3.52345
+
+--------------------------
+
+Answer to Questions: 
+To find the point of diminishing returns, we must first define after what 
+decimal place does the change become irrelevant. In my opinion, accuracy is
+only relavent in this scenario to the hundreth's decimal place. Therfore, 
+after 100,000 simulations we will reach a point in which the hundreth's 
+decimal point will stabalize. Thus, after a hundred thousand trials, we
+have reached our point of diminishing returns. As a sidenote, to ensure 
+that someone has the most amount of squares left on the roll, we should 
+all strive to be a small roll chooser. 
