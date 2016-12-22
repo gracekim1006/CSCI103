@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <iomanip>
 using namespace std;
+//Prints out a multiplication table
 
 int main()
 {
